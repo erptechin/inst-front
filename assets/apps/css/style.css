@@ -408,17 +408,17 @@ ul {
 }
 
 .custom-nav>li.menu-list>a {
-	background: transparent url(../images/plus-white.png) no-repeat 93% center;
+	/* background: transparent url(../images/plus-white.png) no-repeat 93% center; */
 }
 
 .custom-nav>li.menu-list>a:hover {
 	background-color: #272c33;
-	background: url(../images/plus-white.png) no-repeat 93% center;
+	/* background: url(../images/plus-white.png) no-repeat 93% center; */
 }
 
 .custom-nav>li.nav-active>a {
 	background-color: #e74c3c !important;
-	background: url(../images/minus-white.png) no-repeat 93% center;
+	/* background: url(../images/minus-white.png) no-repeat 93% center; */
 	color: #fff;
 }
 
@@ -427,7 +427,7 @@ ul {
 }
 
 .custom-nav>li.nav-active>a:hover {
-	background: url(../images/minus-white.png) no-repeat 93% center;
+	/* background: url(../images/minus-white.png) no-repeat 93% center; */
 }
 
 .custom-nav>li.active>a,
@@ -1445,7 +1445,7 @@ span.help-block {
 
 .form-group .form-control~.form-control-line,
 .form-group .form-control~label {
-	/*position: relative;*/
+	position: relative;
 }
 
 .mb2rem {

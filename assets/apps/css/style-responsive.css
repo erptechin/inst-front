@@ -45,7 +45,7 @@
 		left: 240px;
 	}
 	.sticky-header .menu-right {
-		margin-right: 15px;
+		margin-right: 15px!important;
 	}
 	.sticky-header .left-side {
 	/*top: 60px;*/
@@ -75,6 +75,7 @@
 	}
 	.sticky-left-side, .sticky-header .header-section {
 		position: absolute;
+		left: 0!important;
 	}
 	.left-side .logged-user .media-object {
 		margin-right: 10px;
