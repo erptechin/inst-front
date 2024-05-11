@@ -1,0 +1,130 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+	body {
+		position: relative;
+	}
+	.left-side {
+		display: none;
+	}
+	.main-content {
+		margin-left: 0;
+		width: 100%;
+	}
+	.left-side-collapsed .left-side {
+		display: none;
+	}
+	.left-side-collapsed .main-content {
+		margin-left: 0;
+	}
+	.left-side-collapsed .header-section {
+		margin-left: 0;
+	}
+	.left-side-show section {
+		overflow-x: hidden;
+	}
+	.left-side-show .left-side {
+		display: block;
+	}
+	.left-side-show .main-content {
+		margin-left: 240px;
+	}
+	.btn-demo {
+		margin-bottom: 20px;
+	}
+	.left-sideinner {
+		padding: 5px 10px;
+	}
+	.left-sideinner .searchform input {
+		background: #fff;
+		border: 0;
+	}
+	.sticky-header .header-section, .sticky-header.left-side-collapsed .header-section {
+		left: 0;
+	}
+	.sticky-header.left-side-show .header-section {
+		left: 240px;
+	}
+	.sticky-header .menu-right {
+		margin-right: 15px!important;
+	}
+	.sticky-header .left-side {
+	/*top: 60px;*/
+	}
+	.sticky-left-side .custom-nav {
+		margin-top: -5px;
+	}
+	.stepy-error {
+		bottom: 50px;
+	}
+	.left-side-collapsed .left-side {
+		left: 0;
+		top: 50px;
+		width: 240px;
+	}
+	.sticky-header.left-side-collapsed .menu-right {
+		margin-right: 15px;
+	}
+	.left-side-collapsed .logo-icon {
+		display: none;
+	}
+	.left-side-collapsed .logo {
+		display: block;
+	}
+	.left-side-collapsed .left-side .searchform input {
+		margin: 5px 0 20px 12px;
+	}
+	.sticky-left-side, .sticky-header .header-section {
+		position: absolute;
+		left: 0!important;
+	}
+	.left-side .logged-user .media-object {
+		margin-right: 10px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.header-fixed #header {
+		display: none !important;
+	}
+}
+@media screen and (max-width: 767px) {
+	.left-side .searchform,  .left-side .logged-user {
+		display: block;
+	}
+	.breadcrumb-wrapper {
+		display: none;
+	}
+	.top-right-menu li:nth-child(4) {
+        display: none;
+    }
+	.top-right-menu .dropdown-menu:after {
+        display: none;
+    }
+}
+ @media screen and (max-width: 640px) {
+	 
+}
+ @media screen and (max-width: 480px) {
+	 
+}
+ @media screen and (max-width: 479px) {
+	 
+}
+ @media screen and (max-width: 360px) {
+	.top-right-menu li:first-child .dropdown-menu {
+        margin-right: -90px;
+    }
+    .top-right-menu li:nth-child(2) .dropdown-menu {
+        margin-right: -45px;
+    }
+    .top-right-menu li:nth-child(3) .dropdown-menu {
+        margin-right: 0px;
+    }
+	.nav-tabs.nav-justified.nav-profile > li {
+		float: none;
+		display: block;
+		width: auto;
+	}
+}
+ @media screen and (max-width: 320px) {
+	 
+}
